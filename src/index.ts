@@ -1,1 +1,2 @@
-export { hello, getRandomName } from "./example.js";
+export * from "./core.js";
+export * from "./game.js";

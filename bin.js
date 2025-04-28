@@ -1,9 +1,10 @@
 #!/usr/bin/env node
 
-import { getRandomName, hello } from "./dist/index.js";
+import { createGame, printGame } from "./dist/index.js";
 
 function main() {
-  console.log(hello(getRandomName()));
+  const game = createGame(["Mc", "Mx", "Mr", "Tm"]);
+  printGame(game);
 }
 
 main();
